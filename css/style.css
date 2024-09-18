@@ -1,0 +1,193 @@
+body {
+    margin: 20px auto;
+    width: 800px;
+}
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section article {
+    background-color: #F0F1F4;
+
+    border-bottom: 3px solid #7B4F9D;
+    display: inline-block;
+    height: 176px;
+    text-decoration: none;
+    vertical-align: top;
+    width: 176px;
+    margin-bottom: 15px;
+}
+
+section article.gf {
+    background-color: #facaf8;
+}
+
+section article.gm {
+    background-color: #aec9f5;
+}
+
+section article.gnF {
+    background-color: gray;
+}
+
+
+section article p {
+    color: #6A747E;
+    font-family: "Segoe UI",Segoe,"Trebuchet MS",Tahoma,Geneva,sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 148%;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    white-space: nowrap;
+    text-overflow : ellipsis;
+    overflow : hidden;
+}
+
+section article h1 {
+    color: #253340;
+    display: block;
+    font-family: "Segoe UI",Segoe,"Trebuchet MS",Tahoma,Geneva,sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 148%;
+    margin: 0;
+    padding: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow : ellipsis;
+    overflow : hidden;
+    text-align : center;
+}
+
+section > article > footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+section > article > footer > a > img{
+    width: 24px;
+}
+
+/* Formulaire pour ajouter un contact */
+
+.ajoutPersonne h3
+{
+    text-align: center;
+}
+
+#ajoutPersonne
+{
+    margin-right: 400px;
+    margin-left: 400px;
+    border: solid thick black;
+    margin-top: 10px;
+}
+
+.form_add_person
+{
+    position:relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
+
+.ajoutPersonne input[type="text"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+.ajoutPersonne input[type="mail"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+.ajoutPersonne input[type="radio"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.ajoutPersonne input[type="sumbit"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+/* Formulaire pour modifier un contact */
+
+.modifierContact h3
+{
+    text-align: center;
+}
+
+#modifierContact
+{
+    margin-right: 400px;
+    margin-left: 400px;
+    border: solid thick black;
+    margin-top: 10px;
+}
+
+.form_edit_contact
+{
+    position:relative;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px;
+}
+
+.modifierContact input[type="text"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+.modifierContact input[type="mail"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
+
+.modifierContact input[type="radio"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.modifierContact input[type="sumbit"] 
+{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-width: fit-content;
+    text-align: center;
+}
